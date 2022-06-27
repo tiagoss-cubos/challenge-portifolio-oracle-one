@@ -1,15 +1,17 @@
 section.title {
-    margin: 32px 0px;
+    margin: 32px 100px;
 }
 
 div.title__container {
-    width: 800px;
+    width: calc(100% - 368px);
 }
 
 div.title__container h2 {
-    font-size: 56px;
+    font-size: 53px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 61px;
+    max-width: 750px;
+    margin-bottom: 24px;
 }
 
 div.title__div {
@@ -20,20 +22,15 @@ div.title__div {
 }
 
 section.title img.title__profile {
-    width: 400px;
+    width: 368px;
 }
 
 section.title div.title__div div.title__container h3 {
-    font-size: 17px;
-    line-height: 23px;
-    width: 600px;
-}
-
-section.title div.title__div div.title__container h3 {
+    font-size: 21px;
+    line-height: 26px;
+    max-width: 750px;
     font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;
+    font-weight: 400;
 }
 
 section.title div.title__div div.title__container ul {
@@ -42,6 +39,5 @@ section.title div.title__div div.title__container ul {
     align-items: center;
     padding: 0;
     font-size: 16px;
-    width: 500px;
-    color: red;
+    width: 467px;
 }

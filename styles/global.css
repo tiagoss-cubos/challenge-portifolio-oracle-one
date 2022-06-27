@@ -11,9 +11,10 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo);
     font-family: "Raleway";
+    font-style: normal;
     margin: 0;
     padding: 0;
-    line-height: 1;
+    /* line-height: 1; */
 }
 
 a {

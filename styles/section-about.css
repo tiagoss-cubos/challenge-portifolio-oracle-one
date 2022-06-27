@@ -1,10 +1,13 @@
 section.about {
-    padding: 62px 164px;
+    padding: 62px 100px;
     background-color: var(--color-fundo-azul);
 }
 
 section.about div.about__container h3 {
+    font-weight: 700;
     font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 16px;
 }
 
 .about__container {
@@ -14,42 +17,6 @@ section.about div.about__container h3 {
 section.about div.about__container p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 16px;
-}
-
-section.about div.about__container img {
-    margin: 16px 0;
-}
-
-section.skills {
-    padding: 64px 100px;
-}
-
-section.skills h3.skills__title {
-    font-size: 22px;
-    text-align: center;
-}
-
-section.skills div.skills__line {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-}
-
-section.skills div.skills__line div.skills__box {
-    background-color: var(--color-caixas);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 16px;
-    margin: 23px 15px 23px 8px;
-    width: 130px;
-    height: 130px;
-    border-radius: 12px;
-}
-
-.skills__box ul {
-    margin: 0;
-    padding: 0;
+    line-height: 19px;
+    margin-bottom: 16px;
 }
