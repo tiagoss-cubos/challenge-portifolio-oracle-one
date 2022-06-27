@@ -1,0 +1,72 @@
+section.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 10vh;
+}
+
+section header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    color: var(--color-titulos);
+}
+
+nav ul.menu__list {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    font-size: 16px;
+}
+
+header img {
+    margin-right: 16px;
+}
+
+section.academic {
+}
+
+section.experience {
+}
+
+section.formcontato {
+}
+
+section.footer {
+}
+
+@media (min-width: 768px) {
+    /* Menu */
+
+    /*title*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Experiências acadêmicas*/
+
+    /*Expeirência profissional*/
+}
+
+@media (min-width: 425px) {
+    /*Menu*/
+
+    /*Titulo*/
+
+    /*Sessão sobre*/
+
+    /*Skills*/
+
+    /*Hobbies*/
+
+    /*Formação Acadêmica*/
+
+    /*Experiência Profissional*/
+
+    /*Contato*/
+
+    /*Footer*/
+}

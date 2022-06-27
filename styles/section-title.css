@@ -1,0 +1,47 @@
+section.title {
+    margin: 32px 0px;
+}
+
+div.title__container {
+    width: 800px;
+}
+
+div.title__container h2 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+div.title__div {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+section.title img.title__profile {
+    width: 400px;
+}
+
+section.title div.title__div div.title__container h3 {
+    font-size: 17px;
+    line-height: 23px;
+    width: 600px;
+}
+
+section.title div.title__div div.title__container h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+section.title div.title__div div.title__container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    font-size: 16px;
+    width: 500px;
+    color: red;
+}
