@@ -1,0 +1,5 @@
+section.formcontato div.formcontato__contacto {
+  display: flex;
+  background-color: var(--color-fundo-azul);
+  padding: 64px 100px;
+}

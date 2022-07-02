@@ -1,0 +1,106 @@
+section.academic {
+  padding: 88px 100px;
+  background-color: var(--color-fundo-azul);
+}
+
+section.academic h3.academic__title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+section.academic div.academic__courses {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 16px;
+}
+
+section.academic div.academic__courses__box {
+  width: 368px;
+  width: 32%;
+}
+
+div.academic__courses__box ul li.academic__courses__item__img {
+  background-color: var(--color-caixas);
+  padding: 80px;
+  text-align: center;
+}
+
+div.academic__courses__box ul li.academic__courses__item__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 8px;
+}
+
+div.academic__courses__box ul li.academic__courses__item__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 8px;
+}
+
+section.experience {
+  padding: 32px 100px;
+}
+
+section.experience h3.experience__section__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+}
+
+section.experience div.experiencie__box {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  gap: 16px;
+}
+
+section.experience div.experiencie__box:nth-child(2n + 1) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+div.experiencie__box img.experience__img {
+  max-width: calc(100% - 355px);
+  max-width: 100%;
+}
+
+div.experience__info h4.experience__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+
+div.experience__info h5.experience__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 8px;
+}
+
+span.experience__repo button.experiencia__botao--repo,
+span.experience__demo button.experiencia__botao--demo {
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 16px;
+}
+
+span.experience__repo button.experiencia__botao--repo {
+  border: 1px solid var(--azul-botoes);
+  color: var(--azul-botoes);
+  background-color: transparent;
+  margin-right: 16px;
+}
+
+span.experience__demo button.experiencia__botao--demo {
+  border: none;
+  color: var(--color-branca);
+  background-color: var(--azul-botoes);
+}
