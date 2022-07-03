@@ -1,43 +1,60 @@
 section.title {
-    margin: 32px 100px;
-}
-
-div.title__container {
-    width: calc(100% - 368px);
-}
-
-div.title__container h2 {
-    font-size: 53px;
-    font-weight: 700;
-    line-height: 61px;
-    max-width: 750px;
-    margin-bottom: 24px;
+  margin: 2rem 6.25rem;
 }
 
 div.title__div {
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    flex-direction: row-reverse;
+  align-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+div.title__container {
+  width: calc(100% - 23rem);
+}
+
+div.title__container h2 {
+  font-size: 3.3125rem;
+  font-weight: 700;
+  line-height: 3.8125rem;
+  margin-bottom: 1.5rem;
+  max-width: 46.875rem;
 }
 
 section.title img.title__profile {
-    width: 368px;
+  max-width: 23rem;
 }
 
 section.title div.title__div div.title__container h3 {
-    font-size: 21px;
-    line-height: 26px;
-    max-width: 750px;
-    font-style: normal;
-    font-weight: 400;
+  font-size: 1.3125rem;
+  font-style: normal;
+  line-height: 1.625rem;
+  font-weight: 400;
+  max-width: 46.875rem;
 }
 
 section.title div.title__div div.title__container ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    font-size: 16px;
-    width: 467px;
+  align-items: center;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  padding: 0;
+  width: 29.1875rem;
+}
+
+/* Responsividade */
+
+@media screen and (min-width: 22.5rem) {
+  section.title {
+    margin: 0;
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  section.title img.title__profile {
+    max-width: 6.125rem;
+  }
+
+  div.title__div {
+    flex-direction: column;
+  }
 }

@@ -1,23 +1,58 @@
 section.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-end;
-    min-height: 88px;
-    margin: 0 100px;
+  align-content: flex-end;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 6.25rem;
+  height: 5.5rem;
 }
 
 section header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: 700;
-    color: var(--color-titulos);
+  align-items: center;
+  color: var(--color-titulos);
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+}
+
+section header h3.menu__title {
+  margin-left: 0.5rem;
 }
 
 nav ul.menu__list {
-    display: flex;
-    justify-content: space-between;
-    width: 750px;
-    font-size: 16px;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  width: 46.875rem;
+}
+
+nav ul.menu__list li.list__menu__item {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.1875rem;
+}
+
+section nav li.menu__list__item__contato {
+  display: none;
+}
+
+/* Responsividade */
+
+@media screen and (min-width: 360px) {
+  section.menu {
+    margin: 0;
+    padding: 0 1rem;
+    height: 3.4375rem;
+  }
+
+  nav ul.menu__list {
+    display: none;
+  }
+
+  section nav li.menu__list__item__contato {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1rem;
+  }
 }

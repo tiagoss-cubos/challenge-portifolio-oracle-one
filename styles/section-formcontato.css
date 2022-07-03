@@ -1,5 +1,45 @@
 section.formcontato div.formcontato__contacto {
-  display: flex;
   background-color: var(--color-fundo-azul);
-  padding: 64px 100px;
+  display: flex;
+  gap: 0 1rem;
+  padding: 4rem 6.25rem;
+}
+
+section.formcontato div.formcontato__text {
+  width: 100%;
+}
+
+div.formcontato__text h2.formcontato__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+div.formcontato__text h3.formcontato__subtext {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+div.formcontato__text form.formcontato__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem 0;
+  margin-top: 2rem;
+}
+
+div.formcontato__text form.formcontato__form input.formcontato__input {
+  display: block;
+  height: 3.5rem;
+}
+
+div.formcontato__text form.formcontato__form button.formcontato__botao {
+  background-color: var(--azul-botoes);
+  border: none;
+  box-sizing: border-box;
+  color: var(--color-branca);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1rem 0;
+  width: 10.3125rem;
 }

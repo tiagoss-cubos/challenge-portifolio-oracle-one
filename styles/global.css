@@ -6,16 +6,17 @@
   --color-caixas: #fbfbfb;
   --azul-botoes: #2a7ae4;
   --color-branca: #ffffff;
+  --color-text: #464646;
 }
 
 body {
   box-sizing: border-box;
   background-color: var(--cor-de-fundo);
+  color: var(--color-text);
   font-family: "Raleway";
   font-style: normal;
   margin: 0;
   padding: 0;
-  /* line-height: 1; */
 }
 
 a {
